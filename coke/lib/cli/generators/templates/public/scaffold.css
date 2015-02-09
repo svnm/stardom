@@ -1,0 +1,77 @@
+#content th, #content td {
+  text-align: center;
+}
+
+#content th {
+  font-weight: bolder;
+  padding: 10px;
+}
+
+#content td {
+  padding: 5px 10px;
+}
+
+#content a {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  font-size: 14px;
+  font-weight: bolder;
+  color: #333333;
+  line-height: 1.5em;
+  padding: 0 8px;
+}
+
+#content a:hover {
+  background: #555555;
+  color: white;
+}
+
+#table {
+  padding: 0 0 15px 10px;
+  line-height: 1.5em;
+}
+
+.form-row {
+  padding: 0 0 10px;
+}
+
+.form-title {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  font-weight: bolder;
+  padding: 0 10px 0 0;
+}
+
+.submit-link {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  font-size: 14px;
+  font-weight: bolder;
+  color: #333333;
+  background: white;
+  border: none;
+  padding: 3px 5px;
+}
+
+.submit-link:hover {
+  background: #555555;
+  color: white;
+}
+
+.text-input {
+  width: 150px;
+  padding: 4px;
+  border: 1px solid #cccccc;
+}

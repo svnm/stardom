@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title><?= it.title ?></title>
+    <meta name="description" content="<?= it.description || '' ?>" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <?= it.css() ?>
+  </head>
+  <body>
+    <div id="wrap">
+      <div id="header">
+        <h1><?= it.title ?></h1>
+        <a id="logo" href="/" rel="home" title="Go to home page">
+          COKE
+        </a>
+        <?= it.partial( '/common/nav' ) ?>
+      </div>
+      <div id="content" role="main">
+        <?= it.messages() ?>
+        <?= it.body ?>
+      </div>
+      <div id="footer">
+        Powered by <a id="logo-s" href="http://coke-js.org">COKE</a>
+      </div>
+    </div>
+    <?= it.js() ?>
+  </body>
+</html>
