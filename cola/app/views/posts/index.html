@@ -1,0 +1,55 @@
+<? it.styles.push( 'scaffold' ) ?>
+<? it.title = 'Listing posts' ?>
+<? it.nav_selected = 'posts' ?>
+
+<div id="table">
+  <table>
+    <thead>
+      <tr>
+        <th nowrap="nowrap">
+          Title
+        </th>
+        <th nowrap="nowrap">
+          Content
+        </th>
+        <th nowrap="nowrap">
+          IsPublic
+        </th>
+        <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <? it.posts.forEach( function ( post ){ ?>
+
+      <tr>
+        <td>
+          <?= post.title ?>
+        </td>
+        <td>
+          <?= post.content ?>
+        </td>
+        <td>
+          <?= post.is_public ?>
+        </td>
+        <td>
+          <a href="/posts/<?= post._id ?>">Show</a>
+        </td>
+        <td>
+          <a href="/posts/<?= post._id ?>/edit">Edit</a>
+        </td>
+        <td>
+          <form action="/posts/<?= post._id ?>" method="POST" accept-charset="UTF-8" >
+            <input type="hidden" name="_method" value="delete" />
+            <input type="hidden" name="_csrf" value="<?= it.csrf ?>" />
+            <input class="submit-link" type="submit" value="Delete" />
+          </form>
+        </td>
+      </tr>
+
+      <? }) ?>
+    </tbody>
+  </table>
+</div>
+<a href="/posts/new">New post</a>
