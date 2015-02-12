@@ -1,6 +1,6 @@
 {
   "name": "cola",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "description": "A full stack MVC framework that speeds up your web development.",
   "keywords": [
     "mvc",
