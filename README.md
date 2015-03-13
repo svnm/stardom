@@ -8,4 +8,4 @@
   - RESTful routing, supports namespace and nested resource. Thanks to [RailwayJS](http://railwayjs.com/).
   - Powerful generators for project prototyping.
   - Model command line console.
-  - Socket.io compatible.
+  - Socket.io compatible
