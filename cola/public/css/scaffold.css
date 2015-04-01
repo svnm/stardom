@@ -14,8 +14,6 @@
 #content a {
   display: -moz-inline-stack;
   display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
   zoom: 1;
   *display: inline;
   font-size: 14px;
