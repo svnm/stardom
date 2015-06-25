@@ -9,3 +9,7 @@
   - Powerful generators for project prototyping.
   - Model command line console.
   - Socket.io compatible
+
+## License
+
+[MIT](http://isekivacenz.mit-license.org/)
