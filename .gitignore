@@ -1,2 +1,2 @@
 node_modules
-cola/*/node-modules/
+.DS_Store
