@@ -1,6 +1,4 @@
-/* TODO: This should be a node module */
-
- var toggleClass = function(element, className) {
+var toggleClass = function(element, className) {
 
   var classes = element.className.split(/\s+/),
       length = classes.length,
@@ -13,7 +11,7 @@
     }
   }
   
-  // className is not found
+  // className not found
   if (length === classes.length) {
     classes.push(className);
   }
