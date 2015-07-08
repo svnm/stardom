@@ -1,8 +1,13 @@
-# norvex
+# star
 
-## Features
+star your way through the dom
 
-  - React minimal UI library for React Native...
+![](http://static2.minitokyo.net/view/39/00/285039.jpg)
+
+## API
+
+  - toggleClass
+  - findAncestor
 
 ## License
 
