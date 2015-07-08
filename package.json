@@ -2,7 +2,7 @@
   "name": "star",
   "version": "0.0.1",
   "description": "star your way through the dom",
-  "main": "index",
+  "main": "src/index.js",
   "homepage": "http://isekivace.nz/star",
   "keywords": [
     "star",
