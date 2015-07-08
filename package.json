@@ -1,34 +1,26 @@
 {
-  "name": "cola",
+  "name": "star",
   "version": "0.0.1",
-  "description": "A full stack MVC framework that speeds up your web development.",
+  "description": "star your way through the dom",
+  "main": "index",
+  "homepage": "http://isekivace.nz/star",
   "keywords": [
-    "mvc",
-    "express",
-    "connect",
-    "coke",
-    "framework"
+    "star",
+    "jQuery",
+    "cherio",
+    "sizzle",
+    "dom manipulation",
+    "selectors"
   ],
   "author": {
     "name": "steven iseki martin",
     "email": "stevenisekimartin@gmail.com"
   },
-  "dependencies": {
-    "coke"      : "0.25.2",
-    "mongodb"   : "1.4.30"
-  },
-  "devDependencies": {
-    "should": "4.6.1"
-  },
+  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/StevenIseki/cola.git"
   },
-  "homepage": "http://colajs.io",
-  "main": "index",
-  "engines": [
-    "node >= 0.8.0"
-  ],
   "licenses": [
     {
       "type": "MIT",
