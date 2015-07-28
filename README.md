@@ -6,6 +6,9 @@ star your way through the dom
 
 ## API
 
+  - addClass
+  - removeClass
+  - hasClass
   - toggleClass
   - findAncestor
 
