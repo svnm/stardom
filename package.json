@@ -1,13 +1,13 @@
 {
-  "name": "star",
-  "version": "0.0.1",
+  "name": "stardom",
+  "version": "1.0.0",
   "description": "star your way through the dom",
   "main": "src/index.js",
-  "homepage": "http://isekivace.nz/star",
+  "homepage": "http://isekivace.nz/stardom",
   "keywords": [
     "star",
     "jQuery",
-    "cherio",
+    "cheerio",
     "sizzle",
     "dom manipulation",
     "selectors"
@@ -19,7 +19,7 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/StevenIseki/cola.git"
+    "url": "https://github.com/StevenIseki/stardom.git"
   },
   "licenses": [
     {
