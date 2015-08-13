@@ -1,3 +1,6 @@
-function removeElement() {
-
+function removeElement(element) {
+  element.outerHTML = "";
+  delete element;
 }
+
+module.exports = removeElement;
