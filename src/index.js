@@ -3,5 +3,6 @@ module.exports = {
 	addClass: require("./addClass"),
 	removeClass: require("./removeClass"),
 	hasClass: require("./hasClass"),
-	toggleClass: require("./toggleClass")
+	toggleClass: require("./toggleClass"),
+	removeElement: require("./removeElement")
 };
